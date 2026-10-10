@@ -3,6 +3,7 @@
 2.1 Setup pom.xml: replace from <properties> tag to the end </build> tag with below content
 
 ------------
+
 <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
       <!--VuLNS | Change to Java 17 in the system-->
@@ -72,6 +73,7 @@ In <build> add:
             </execution>
           </executions>
         </plugin>
+
 
 --------------
 Run Jacoco cmd:
